@@ -7,6 +7,11 @@ body
   line-height: 2;
 }
 
+footer
+{
+  color: #3f3f44;
+}
+
 #title
 {
   background-color: #ffe8df;
@@ -20,9 +25,15 @@ body
 
 #work
 {
-  padding: 8% 0 8% 0;
+  padding: 8% 0;
   background-color: #ffe8df;
   color: #3f3f44;
+}
+
+#contact
+{
+  padding: 8% 0;
+  color: #3f3f44
 }
 
 .navbar
@@ -78,11 +89,36 @@ body
   margin: 0;
 }
 
+.work-title
+{
+  font-size: 4rem;
+  margin: 0;
+  padding-bottom: 3%;
+}
+
+.contact-title
+{
+  font-size: 4rem;
+  margin: 0;
+  padding-bottom: 3%;
+}
+
 .img-thumbnail
 {
   border-style: none;
   border-radius: 0;
   border-width: 0;
+}
+
+.contact-email
+{
+  padding-left: 2.1%;
+  padding-right: 2.1%;
+}
+
+.btn-outline-dark:hover
+{
+  color: #ffe8df;
 }
 
 .col-lg-4
