@@ -10,6 +10,8 @@ body
 footer
 {
   color: #3f3f44;
+  margin: 0;
+  padding-bottom: 1%;
 }
 
 #title
